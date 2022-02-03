@@ -1,6 +1,3 @@
-var opcionA = "piedra";
-var opcionB = "papel";
-var opcionC = "tijera";
 var maquina = Math.random();
 var elegi;
 
