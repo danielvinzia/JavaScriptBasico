@@ -17,3 +17,18 @@ var articulosFiltrados = articulos.filter(function(articulo) {
 var nombreArticulos = articulos.map(function(articulo) {
     return articulo.nombre
 });
+
+// metodo find
+var encuentraArticulo = articulos.find(function(articulo) {
+    return articulo.nombre === "Laptop"
+});
+
+// metodo forEach
+articulos.forEach(function(articulo) {
+    console.log(articulo.nombre);
+});
+
+// metodo some
+var articulosBaratos = articulos.some(function(articulo) {
+    return articulo.costo <= 700;
+});
