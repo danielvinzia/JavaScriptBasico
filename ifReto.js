@@ -26,6 +26,8 @@ function juego(elegi) {
             console.log("PERDISTE");
             console.log("vos elegiste Tijeras, la maquina eligio piedra");
         }
+    } else {
+        console.log("No escribiste bien, te pedi que escribas: piedra, papel o tijera");
     }
 }
 
